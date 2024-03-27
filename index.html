@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - AMAP'ORTE</title>
+    <meta name="description"
+        content="Votre premier site de vente de paniers d'une amap de petits producteurs directement à votre porte." />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="piscinette.css">
+    <link rel="shortcut icon" type="image/png" href="./img/Amaporte_icon.png" />
+
+</head>
+
+<body>
+    <header>
+        <!-- bannière du site -->
+        <div id="ban"><img id="logo-ban" src="./img/amaporte_correct.png" alt="logo entreprise pomme">
+        </div>
+        <!-- bare de navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Accueil"><img id="icon" src="./img/icon_test.png" alt="logo entreprise pomme"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+                        </svg></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="piscinette-NousSommes.html">Nos agriculteurs·trices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos engagements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Nos différents paniers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="piscinette-legume.html">Les paniers légumes</a></li>
+                                <li><a class="dropdown-item" href="#">Les oeufs</a></li>
+                                <li><a class="dropdown-item" href="#">Les viandes</a></li>
+                                <li><a class="dropdown-item" href="#">Les miels</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos actualités</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Tapez ici" aria-label="Search">
+                        <button class="search" type="submit">Rechercher</button>
+                    </form>
+                    <li class="nav-icon">
+                        <a class="nav-link" href="piscinette-panier.html" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Mon panier"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="25" height="25" fill="currentColor" class="bi bi-basket2-fill"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
+                            </svg>
+                            <span class='badge badge-warning articleNbr' id='lblCartCount'> 0 </span></a>
+                    </li>
+                    <li class="nav-icon">
+                        <a class="nav-link" href="piscinette-login.html" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Mon compte"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="25" height="25" fill="currentColor" class="bi bi-person-square"
+                                viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg></a>
+                    </li>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin de la barre de navigation -->
+
+    <!-- corps du site -->
+    <main>
+        <div class="mainStart">
+            <h1>Qu'est-ce qu'une AMAP ?</h1>
+            <p>LES AMAP SONT LE SEUL SYSTÈME ASSURANT DES LIVRAISONS ALIMENTAIRES SANS INTERMÉDIAIRE (ET DONC SANS
+                MARGE).</p>
+        </div>
+
+        <div class="container">
+            <div class="mainCenter1">
+                <h3>DANS CE PARTENARIAT, CHACUN·E S’ENGAGE :</h3>
+                <p class="p1">Les paysan·nes s’engagent à livrer régulièrement des produits sains, frais et locaux,
+                    produits sur
+                    leur ferme. Les citoyen·nes (appelé·es amapien·nes) s’engagent à payer à l’avance un certain
+                    nombre de paniers, sur le principe d’un abonnement. ET TOUT LE MONDE S’Y RETROUVE !</p>
+                <img class="test" id="img1" src="./img/bruno-cervera-q7m1snw6i0g-unsplash.jpg"
+                    alt="panier de tomates cerises d'agriculteurs">
+            </div>
+            <div class="mainCenter2">
+                <h3>À TRAVERS DES PANIERS LIVRÉS RÉGULIÈREMENT, CE SYSTÈME PERMET :</h3>
+                <img class="test imgSysteme" id="img2" src="./img/alex-block-vWI1kTcMcDI-unsplash.jpg"
+                    alt="barquette de différents fruits rouges d'un agriculteur">
+                <p>Aux paysan·nes d’être rémunérés équitablement justement, et d’avoir une visibilité sur leur
+                    finance grâce à l’anticipation des ventes.
+                    aux amapien·nes d’acheter à un prix équitable des produits de qualité, en étant informés de leur
+                    origine et de la façon dont ils ont été produits.
+                    à tous et toutes de se rencontrer, d’échanger, de mutualiser des savoirs et pratiques, tout
+                    comme des moments partagés et conviviaux.</p>
+            </div>
+
+
+            <div class="mainCenter1">
+                <h3>UN CONTRAT</h3>
+                <p>Chaque amapien·ne signe un contrat avec un·e paysan·ne, qui les engagent tous les deux sur une
+                    certaine période (6 mois, 1 an…).
+
+                    Cet engagement se traduit par le pré-paiement de l’ensemble de la période sur laquelle court le
+                    contrat.
+                    Le règlement peut être échelonné en plusieurs paiements.</p>
+
+                <p>Comme il n’y a pas d’intermédiaire commercial entre le groupe de citoyen·nes et les paysan·nes.
+                    Cela permet aux uns d’avoir accès à des produits frais, sains et de saison, et aux autres d’être
+                    justement équitablement rémunérés.</p>
+                <img class="test imgContrat" src="./img/tom-paolini-nXKDqpmdx_8-unsplash.jpg"
+                    alt="un panier avec différents légumes frais et locaux">
+            </div>
+
+            <div class="mainCenter2">
+                <h3>UNE LIVRAISON RÉGULIÈRE ET CONVIVIALE</h3>
+                <img class="test imgLivraison" src="./img/yunus-basaran-XFhiIcGR0Ag-unsplash.jpg"
+                    alt="panier de différentes courges de saison, bio et locales">
+                <p>Chaque semaine, pendant une à deux heures, tous·tes les amapien·nes retrouvent les paysan·nes. sur le
+                    lieu de livraison des paniers.</p>
+
+                <p>La fréquence des livraisons dépend des produits: si chaque semaine les légumes sont livrés, les
+                    produits de plus grande conservation peuvent être livrés mensuellement ou par quinzaine, voire pour
+                    des produits moins fréquents tous les deux mois ou seulement l’hiver (les agrumes).</p>
+
+                <p>La livraison, est un temps d’échange. Comprendre comment se passe le travail sur la ferme, faire
+                    connaissance avec le ou la paysan·ne, et avec les amapien.nes, échanger entre voisins: cela permet
+                    de faire vivre son territoire ! C’est un moment idéal pour construire des choses ensemble et donner
+                    du sens à la solidarité.</p>
+            </div>
+
+            <div class="mainCenter1">
+                <h3>UN ENGAGEMENT AU-DELÀ DU PANIER</h3>
+                <p>Sans intermédiaire, cela veut aussi dire que le fonctionnement de l’AMAP repose sur une bonne
+                    organisation entre citoyen·nes et paysan·nes, et un certain investissement des bénévoles
+                    amapien.nes. Le partenariat AMAP se base sur une confiance réciproque, qui passe par la transparence
+                    et une bonne communication entre le groupe AMAP et le·a paysan·ne.</p>
+
+                <p>Le partenariat AMAP, au-delà d’un panier pour les uns et d’un débouché commercial pour les autres,
+                    est un moyen concret de préserver et développer une agriculture locale, écologique, et socialement
+                    équitable, comme le précise la charte des AMAP.</p>
+
+                <p>Pour assurer la pérennité des fermes, la stabilité financière est indispensable. En assurant l’achat
+                    de la production à l’avance, le partenariat AMAP est un soutien concret. Les paysan·nes ont ainsi
+                    une bonne visibilité sur leurs finances.
+                    En payant un prix de panier pour l’année, les amapien·nes assurent aux paysan·nes un revenu stable,
+                    et non (ou en tout cas moins) soumis aux fluctuations des prix des marchés.</p>
+
+                <p>L’AMAP, c’est aussi comprendre les problématiques auxquelles sont confrontés les paysan·nes, et
+                    accepter qu’en cas d’aléas de production (sécheresse, tempête, maladie des plantes ou des animaux
+                    d’élevages… ), les paniers soient un peu moins remplis.</p>
+                <img class="test imgEngagement" src="./img/wayne-hollman-9PzQjJmyhxc-unsplash.jpg"
+                    alt="joli panier de fruits et légumes poussés par un de nos agriculteurs">
+            </div>
+
+        </div>
+
+        <!-- ici démarre notre newsletter -->
+
+        <div class="titre-form">
+            <h2>Vous êtes convaincu·e·s ?</h2>
+            <h3>Rejoignez nous !</h3>
+            <form class="form-news" action="piscinette.html">
+                <div class="formulaire">
+                    <img class="img-form" src="./img/zoe-schaeffer-hmoDcZnB7uw-unsplash.jpg "
+                        alt="panier vu du dessus avec de nombreux légumes frais et locaux">
+                </div>
+
+                <div class="formulaire">
+                    <input type="text" placeholder="Votre nom" name="name" required autocomplete="off">
+                    <input type="email" placeholder="Votre email" name="mail" required autocomplete="off">
+                </div>
+
+                <div class="formulaire">
+                    <input type="submit" value="Rejoindre">
+                </div>
+            </form>
+        </div>
+
+        <!-- Carousel -->
+        <h3 class="actuTitre">Actualités</h3>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardCarousel"
+                        style="background-image: url('https://media.sudouest.fr/18367714/1000x500/20240130134024-nathalieguironnet8483.jpg?v=1707067745');">
+                        <div class="cardCarouselBody">
+                            <h5>Amap des Landes cherchent éleveurs de poulets fermiers bio désespérément</h5>
+                            <p>Des centaines de consommateurs du département, engagés auprès de producteurs, se
+                                retrouvent sans approvisionnement local en volailles depuis le départ à la retraite d’un
+                                éleveur en plein air qui n’a pas trouvé de successeur. ​Une situation qui interpelle,
+                                dans le contexte de l’expression de la colère des agriculteurs</p>
+                            <a href="https://www.sudouest.fr/landes/rion-des-landes/amap-des-landes-cherchent-eleveur-de-poulets-fermiers-bio-desesperement-18367714.php"
+                                target="_blank" class="btn btn-success">En voir plus</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardCarousel"
+                        style="background-image: url('https://media.ouest-france.fr/v1/pictures/MjAyNDAyNzZmMDI4ZWY5ZjdjNTk0ZDAzYjVjNTM5YWNhNzViODI?width=630&height=354&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=c40029c4a0c37711e516ebeab2684ec9caf150850fcffedb262552edcc2eb58a');">
+                        <div class="cardCarouselBody">
+                            <h5>À La Ferté-Bernard, l’Amap est un soutien pour l’agriculture locale</h5>
+                            <p>Grâce à un abonnement annuel, l’adhérent vient chercher son panier de cinq à huit légumes
+                                choisis par les différents maraîchers, tous les mercredis, chez Chope et Compagnie à La
+                                Ferté-Bernard (Sarthe).</p>
+                            <a href="https://www.ouest-france.fr/pays-de-la-loire/la-ferte-bernard-72400/a-la-ferte-bernard-lamap-est-un-soutien-pour-lagriculture-locale-89d5282a-c511-11ee-af61-1f00fdbd6b3c"
+                                target="_blank" class="btn btn-success">En voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardCarousel"
+                        style="background-image: url('https://static.actu.fr/uploads/2024/02/c36acafe4bc56a76acafe4bc57b6acv-1-960x640.jpg');">
+                        <div class="cardCarouselBody">
+                            <h5>Manger local et bio : pourquoi les Amap séduisent les consommateurs près de Vernon ?
+                            </h5>
+                            <p>Engagées en faveur de la consommation locale, les Amap ont-elles la côte à Vernon (Eure)
+                                et ses alentours ? Nous avons posé la question à des bénévoles.</p>
+                            <a href="https://actu.fr/normandie/vernon_27681/manger-local-et-bio-pourquoi-les-amap-seduisent-les-consommateurs-pres-de-vernon_60712425.html"
+                                target="_blank" class="btn btn-success">En voir plus</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <!-- ICI démarre notre footer -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container-footer">
+                <div class="row ">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="piscinette-legume.html">Nos paniers</a></li>
+                            <li><a href="#">Notre service de livraison</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>A propos</h3>
+                        <ul>
+                            <li><a href="piscinette.html">Qui nous sommes</a></li>
+                            <li><a href="piscinette-NousSommes.html">Nos producteurs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>S'engager</h3>
+                        <ul>
+                            <li><a href="#">Devenir bénévole</a></li>
+                            <li><a href="#">S'engager en tant que producteur</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                            href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Amap'orte © 2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="piscinette.js" defer></script>
+</body>
+
+</html>

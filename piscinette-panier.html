@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon panier - AMAP'ORTE</title>
+    <meta name="description"
+        content="Votre premier site de vente de paniers d'une amap de petits producteurs directement à votre porte." />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="piscinette.css">
+    <link rel="shortcut icon" type="image/png" href="./img/Amaporte_icon.png" />
+
+</head>
+
+<body>
+    <header>
+        <!-- bannière du site -->
+        <div id="ban"><img id="logo-ban" src="./img/amaporte_correct.png" alt="logo entreprise pomme">
+        </div>
+        <!-- bare de navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Accueil"><img id="icon" src="./img/icon_test.png" alt="logo entreprise pomme"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+                        </svg></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="piscinette-NousSommes.html">Nos agriculteurs·trices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos engagements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Nos différents paniers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="piscinette-legume.html">Les paniers légumes</a></li>
+                                <li><a class="dropdown-item" href="#">Les oeufs</a></li>
+                                <li><a class="dropdown-item" href="#">Les viandes</a></li>
+                                <li><a class="dropdown-item" href="#">Les miels</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos actualités</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Tapez ici" aria-label="Search">
+                        <button class="search" type="submit">Rechercher</button>
+                    </form>
+                    <li class="nav-icon">
+                        <a class="nav-link" href="piscinette-panier.html" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Mon panier"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="25" height="25" fill="currentColor" class="bi bi-basket2-fill"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
+                            </svg>
+                            <span class='badge badge-warning articleNbr' id='lblCartCount'> 0 </span></a>
+                    </li>
+                    <li class="nav-icon">
+                        <a class="nav-link" href="piscinette-login.html" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Mon compte"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="25" height="25" fill="currentColor" class="bi bi-person-square"
+                                viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg></a>
+                    </li>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin de la barre de navigation -->
+    <main>
+
+        <div class="container-panier">
+            <div class="panier">
+                <div class="inv">
+                    <p>Votre panier</p>
+                </div>
+                <div class="achat">
+                    <div class="total">
+                        <h3>Total</h3>
+                        <p>TVA (5.5%) = </p>
+                        <p>Prix de livraison = </p>
+                    </div>
+                    <div class="paiements">
+                        <h3>Méthodes de paiement</h3>
+                        <p>Carte bancaire
+                        <p>
+                        <p>Paypal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- ceci est notre pied de page -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container-footer">
+                <div class="row ">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="piscinette-legume.html">Nos paniers</a></li>
+                            <li><a href="#">Notre service de livraison</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>A propos</h3>
+                        <ul>
+                            <li><a href="piscinette.html">Qui nous sommes</a></li>
+                            <li><a href="piscinette-NousSommes.html">Nos producteurs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>S'engager</h3>
+                        <ul>
+                            <li><a href="#">Devenir bénévole</a></li>
+                            <li><a href="#">S'engager en tant que producteur</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                            href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Amap'orte © 2024</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="piscinette.js" defer></script>
+</body>
+
+</html>
